@@ -1,5 +1,6 @@
 import { Component, EventEmitter, Input, Output } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { RouterLink } from '@angular/router';
 import { FaIconComponent, FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { IconPack, library } from '@fortawesome/fontawesome-svg-core';
 import { fas } from '@fortawesome/free-solid-svg-icons';
@@ -19,7 +20,7 @@ interface MenuItem {
   selector: 'app-sidebar',
   templateUrl: './menuBar.component.html',
   styleUrls: ['./menuBar.component.css'],
-  imports: [CommonModule, FaIconComponent, FontAwesomeModule],
+  imports: [CommonModule, RouterLink, FaIconComponent, FontAwesomeModule],
 })
 export class MenuBarComponent {
   @Input() isSidebarCollapsed = false;
@@ -74,7 +75,7 @@ export class MenuBarComponent {
       label: 'Settings',
       isOpen: false,
       children: [
-        { icon: 'fas fa-user', label: 'Profile' },
+        { icon: 'fas fa-user', label: 'Profile'},
         { icon: 'fas fa-lock', label: 'Security' },
       ]
     },

@@ -30,7 +30,7 @@
             class="sidebar-submenu"
           >
             <li *ngFor="let child of item.children">
-              <a class="sidebar-item sidebar-subitem">
+              <a class="sidebar-item sidebar-subitem" [routerLink] = "['/', item.label , child.label]">
                 <i [class]="child.icon"></i>
                 <span class="sidebar-item-text">{{ child.label }}</span>
               </a>
