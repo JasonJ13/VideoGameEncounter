@@ -21,7 +21,7 @@ interface MenuItem {
   styleUrls: ['./menuBar.component.css'],
   imports: [CommonModule, FaIconComponent, FontAwesomeModule],
 })
-export class SidebarComponent {
+export class MenuBarComponent {
   @Input() isSidebarCollapsed = false;
   @Output() sidebarToggle = new EventEmitter<void>();
 
@@ -90,4 +90,5 @@ export class SidebarComponent {
       item.isOpen = !item.isOpen;
     }
   }
+
 }

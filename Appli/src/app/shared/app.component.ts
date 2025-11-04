@@ -2,7 +2,7 @@ import { Component, inject, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterLink, RouterOutlet } from '@angular/router';
 import { TranslateDirective, TranslatePipe, TranslateService } from '@ngx-translate/core';
-import { SidebarComponent } from '../pages/MenuBar/menuBar.component';
+import { MenuBarComponent } from '../pages/MenuBar/menuBar.component';
 
 import { FaIconComponent, FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { IconPack, library } from '@fortawesome/fontawesome-svg-core';
@@ -14,7 +14,7 @@ import { fab } from '@fortawesome/free-brands-svg-icons';
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [CommonModule, RouterOutlet, RouterLink, TranslateDirective, TranslatePipe, SidebarComponent, FontAwesomeModule],
+  imports: [CommonModule, RouterOutlet, RouterLink, TranslateDirective, TranslatePipe, MenuBarComponent, FontAwesomeModule],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
