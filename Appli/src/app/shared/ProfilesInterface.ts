@@ -5,6 +5,6 @@ export interface ProfileInterface {
     state: string;
     photo: string;
     availableUnits: number;
-    wifi: boolean;
+    interest: string;
     laundry: boolean;
 }

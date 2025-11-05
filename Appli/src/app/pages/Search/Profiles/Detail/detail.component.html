@@ -10,15 +10,15 @@
         <p class="listing-location">{{ ProfileInterface?.city }}, {{ ProfileInterface?.state }}</p>
       </section>
       <section class="listing-features">
-        <h2 class="section-heading">About this housing location</h2>
+        <h2 class="section-heading">About this Person</h2>
         <ul>
-          <li>Units available: {{ ProfileInterface?.availableUnits }}</li>
-          <li>Does this location have wifi: {{ ProfileInterface?.wifi }}</li>
-          <li>Does this location have laundry: {{ ProfileInterface?.laundry }}</li>
+          <li>Prior games: {{ ProfileInterface?.availableUnits }}</li>
+          <li>Main center of interest: {{ ProfileInterface?.interest }}</li>
+          <li>Is this person actively searching for a project: {{ ProfileInterface?.laundry }}</li>
         </ul>
       </section>
       <section class="listing-apply">
-        <h2 class="section-heading">Apply now to live here</h2>
+        <h2 class="section-heading">Contact this person now</h2>
         <form [formGroup]="applyForm" (submit)="submitApplication()">
           <label for="first-name">First Name</label>
           <input id="first-name" type="text" formControlName="firstName">

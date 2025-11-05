@@ -2,12 +2,12 @@
          "locations": [
              {
                  "id": 0,
-                 "name": "Acme Fresh Start Housing",
-                 "city": "Chicago",
-                 "state": "IL",
-                 "photo": "https://angular.dev/assets/images/tutorials/common/bernard-hermant-CLKGGwIBTaY-unsplash.jpg",
+                 "name": "Cobaye TEST-UN",
+                 "city": "Paris",
+                 "state": "France",
+                 "photo": "/profil1.png",
                  "availableUnits": 4,
-                 "wifi": true,
+                 "interest": "Developpement",
                  "laundry": true
              },
              {

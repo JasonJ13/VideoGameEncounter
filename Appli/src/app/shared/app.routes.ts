@@ -4,7 +4,7 @@ import { SearchProfilesComponent } from '../pages/Search/Profiles/searchProfiles
 import { SearchProjectsComponent } from '../pages/Search/Projects/searchProjects.component';
 import { DetailsComponent } from '../pages/Search/Profiles/Detail/detail.component';
 
-const routes: Routes = [
+export const routes: Routes = [
     {
         path: '',
         redirectTo: '/Accueil',
@@ -33,4 +33,4 @@ const routes: Routes = [
     component: DetailsComponent,
     title: 'Home details',
   },
-]; export default routes
+];
