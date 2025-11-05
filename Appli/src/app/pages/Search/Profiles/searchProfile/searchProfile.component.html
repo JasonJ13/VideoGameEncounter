@@ -1,0 +1,11 @@
+<section class="listing">
+      <img
+        class="listing-photo"
+        [src]="ProfileInterface.photo"
+        alt="Exterior photo of {{ ProfileInterface.name }}"
+        crossorigin
+      />
+      <h2 class="listing-heading">{{ ProfileInterface.name }}</h2>
+      <p class="listing-location">{{ ProfileInterface.city }}, {{ ProfileInterface.state }}</p>
+      <a [routerLink]="['/details', ProfileInterface.id]">Learn More</a>
+</section>
