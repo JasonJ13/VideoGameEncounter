@@ -1,0 +1,40 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0" version="28.2.9">
+  <diagram name="Page-1" id="b9Pr7brM_o7xsAu99nxn">
+    <mxGraphModel dx="1042" dy="645" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="light-dark(#FFFFFF,#FFFFFF)" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="SXtOxX5wvxiZ02_kqqLa-1" value="&lt;h1&gt;Produire&amp;nbsp;&lt;/h1&gt;&lt;h1&gt;un jeu vidéo&lt;/h1&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="372" y="247" width="172" height="157" as="geometry" />
+        </mxCell>
+        <mxCell id="SXtOxX5wvxiZ02_kqqLa-4" value="&lt;h1&gt;ACCOMPAGNEMENT&lt;/h1&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="536" y="438" width="282" height="112" as="geometry" />
+        </mxCell>
+        <mxCell id="SXtOxX5wvxiZ02_kqqLa-5" value="&lt;h1&gt;FORMATION&lt;/h1&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="89" y="394" width="206" height="92" as="geometry" />
+        </mxCell>
+        <mxCell id="SXtOxX5wvxiZ02_kqqLa-6" value="&lt;h1&gt;&lt;font face=&quot;Helvetica&quot;&gt;MISE EN RELATION&lt;/font&gt;&lt;/h1&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="405" y="89" width="190" height="116" as="geometry" />
+        </mxCell>
+        <mxCell id="SXtOxX5wvxiZ02_kqqLa-13" value="" style="curved=1;endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=light-dark(#000000,#000000);exitX=1;exitY=0.5;exitDx=0;exitDy=0;shape=flexArrow;fillColor=light-dark(#000000,#000000);" edge="1" parent="1" source="SXtOxX5wvxiZ02_kqqLa-6" target="SXtOxX5wvxiZ02_kqqLa-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="600" y="100" as="sourcePoint" />
+            <mxPoint x="560" y="270" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="672" y="147" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SXtOxX5wvxiZ02_kqqLa-14" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;strokeColor=light-dark(#000000,#000000);curved=1;shape=flexArrow;fillColor=light-dark(#000000,#000000);" edge="1" parent="1" source="SXtOxX5wvxiZ02_kqqLa-5" target="SXtOxX5wvxiZ02_kqqLa-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="510" y="320" as="sourcePoint" />
+            <mxPoint x="560" y="270" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="196" y="149" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
